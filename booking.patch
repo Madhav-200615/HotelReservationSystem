@@ -1,0 +1,11 @@
+diff --git a/src/main/java/Booking.java b/src/main/java/Booking.java
+index 4636cf4..e069325 100644
+--- a/src/main/java/Booking.java
++++ b/src/main/java/Booking.java
+@@ -1,5 +1,5 @@
+ public class Booking {
+     public void createBooking() {
+-        System.out.println("Booking created");
++        System.out.println("Booking created successfully");
+     }
+ }
