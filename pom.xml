@@ -1,0 +1,66 @@
+<<<<<<< HEAD
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupid>CSMB</groupid>
+    <ArtifactId>HotelReservationSystem</ArtifactId>
+    <packaging>jar</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <name>Hotel Reservation System</name>
+    <url>http://localhost:8345/HRS</url>
+    <dependencies>
+        <!-- Servlet API -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artificatId>servlet-api</artificatId>
+            <version>2.5</version>
+        </dependency>
+        <!-- MySQL Database -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector</artifactId>
+            <version>5.1</version>
+        </dependency>
+        <!-- JUnit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+    <build>
+        <finalName>HRS</finalName>
+        <plugins>
+            <!-- Tomcat Plugin -->
+            <plugin>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <version>2.2</version>
+            </plugin>
+        </plugins>
+    </build>
+=======
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupid>CSMB</groupId>
+  <ArtifactId>HotelReservation</artifactId>
+  <packaging>war</packaging>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>HotelReservationSystem Maven Webapp</name>
+  <url>http://maven.apache.orgN</url>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>Junit</artifactId>
+      <version>3.8.1</version>
+      <scope>compile</scope>
+    </dependency>
+  <dependencies>
+  <build>
+    <finalName>ReservationSystem</finalName>
+  </build>
+>>>>>>> parent of 5aa691b (Revise pom.xml )
+</project>
